@@ -95,8 +95,8 @@ register(
     '<Image>/Layer/Add Indexed Grid',
     '*',
     [
-        (PF_SPINNER, 'tileWidth', 'Tile Width:', 64, (1, 128, 1)),
-        (PF_SPINNER, 'tileHeight', 'Tile Height:', 64, (1, 128, 1)),
+        (PF_SPINNER, 'tileWidth', 'Tile Width:', 64, (1, 512, 1)),
+        (PF_SPINNER, 'tileHeight', 'Tile Height:', 64, (1, 512, 1)),
         (PF_COLOR, 'color', 'Color:', (255, 255, 255)),
         (PF_TOGGLE, 'shouldAddIndices', 'Add Indices:', TRUE),
         (PF_FONT, 'font', 'Font:', 'Sans Bold'),
